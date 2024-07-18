@@ -20,7 +20,7 @@ generator client {
 
 model User {
   id           String     @id @default(uuid())
-  createdAt    DateTime   @default(now())
+createdAt    DateTime   @default(now())
   updatedAt    DateTime   @updatedAt
   email        String     @unique(map: "User.email_unique")
   firstName    String
