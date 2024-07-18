@@ -178,8 +178,6 @@ We use Tailwind and PostCSS for our styles. That's all configured in the
 
 npx prisma migrate reset --force
 
-
-
 One common command you might need to run is to re-seed the database:
 
 ```sh
