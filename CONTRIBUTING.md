@@ -176,10 +176,9 @@ plugins you have so it should work as you working as well.
 We use Tailwind and PostCSS for our styles. That's all configured in the
 `tailwind.config.js` and `postcss.config.js` files.
 
-## Database
+npx prisma migrate reset --force
 
-We've got SQLite and Prisma set up. Learn about the schema and learn more about
-what commands you can run in `./prisma/schema.prisma`.
+
 
 One common command you might need to run is to re-seed the database:
 
