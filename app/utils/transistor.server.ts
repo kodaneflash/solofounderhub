@@ -144,7 +144,7 @@ async function createEpisode({
 
 		// hard-coded because we're generating and uploading these images
 		// and ultimately we know the domain it will be...
-		const domainUrl = 'https://kentcdodds.com'
+		const domainUrl = 'https://solofoundershub'
 
 		const shortEpisodePath = getEpisodePath({
 			episodeNumber: number,
