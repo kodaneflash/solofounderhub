@@ -128,8 +128,8 @@ async function downloadDirectory(dir: string): Promise<Array<GitHubFile>> {
  */
 async function downloadFileBySha(sha: string) {
 	const { data } = await octokit.git.getBlob({
-		owner: 'kentcdodds',
-		repo: 'kentcdodds.com',
+		owner: 'kodaneflash',
+		repo: 'solofoundershub',
 		file_sha: sha,
 	})
 	//                                lol
