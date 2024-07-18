@@ -43,7 +43,7 @@ function addWatcher(wss: WebSocketServer) {
 				)
 				client.send(
 					JSON.stringify({
-						type: 'solofoundershub:file-change',
+						type: 'solofoundershub.com:file-change',
 						data: { filePath, relativePath },
 					}),
 				)
