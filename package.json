@@ -12,15 +12,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentcdodds/kentcdodds.com.git"
+    "url": "git+https://github.com/kodaneflash/solofoundershub.git"
   },
   "keywords": [],
   "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com/)",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/kentcdodds/kentcdodds.com/issues"
+    "url": "https://github.com/kodaneflash/solofoundershub/issues"
   },
-  "homepage": "https://github.com/kentcdodds/kentcdodds.com#readme",
+  "homepage": "https://github.com/kodaneflash/solofoundershub#readme",
   "type": "module",
   "scripts": {
     "postinstall": "patch-package --patch-dir other/patches",
@@ -47,6 +47,7 @@
     "typecheck": "tsc -b .",
     "validate": "./other/validate",
     "setup": "npm install && prisma migrate reset --force && npm run validate && npm run prime-cache:mocks && npm run test:e2e:install && npm run test:e2e:run"
+    "deploy": "npx prisma migrate deploy --schema=prisma/schema.prisma"
   },
   "prisma": {
     "seed": "tsx other/runfile prisma/seed.ts"
