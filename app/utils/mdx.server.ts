@@ -259,7 +259,7 @@ async function compileMdxCached({
 						: undefined,
 					...compiledPage,
 					slug,
-					editLink: `https://github.com/kodaneflash/solofoundershub/edit/main/${entry}`,
+					env `https://github.com/kodaneflash/solofoundershub/edit/main/${entry}`,
 				}
 			} else {
 				return null
