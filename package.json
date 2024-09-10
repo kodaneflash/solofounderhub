@@ -128,7 +128,7 @@
     "p-props": "^6.0.0",
     "p-queue": "^8.0.1",
     "patch-package": "^8.0.0",
-    "path-to-regexp": "^6.2.2",
+    "path-to-regexp": "^8.0.0",
     "postcss-import": "^16.1.0",
     "prisma": "^5.14.0",
     "qrcode": "^1.5.3",
